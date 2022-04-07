@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wallpapercave.com/wp/wp9169715.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+div {
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: end;
+    float: right;
+    padding-top: 15px;
+}
+
+ul li {
+    padding-right: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+iframe {
+    padding-bottom: 30px;
+    width: 100%; 
+    height: 400px;
+}
+
+a {
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: #3297d1;
+    float: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+span {
+    color: antiquewhite;
+}
+
+.row {
+    display: flex;
+}
+
+.row div {
+    text-align: center;
+}
+
+.imagenes {
+    text-align: center;
+}
+
+.imagenes img {
+    width: 45%;
+    height: auto;
+}
